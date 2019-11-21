@@ -9,4 +9,4 @@ RUN mkdir /opt/lib
 WORKDIR /opt/lib
 RUN cp -P -R /tmp/*/usr/lib64/* /opt/lib
 RUN ln libpango-1.0.so.0 pango-1.0 && ln libpangocairo-1.0.so.0 pangocairo-1.0
-RUN zip weasyprint_lambda_layer.zip lib/*
+RUN zip weasyprint_lambda_layer.zip *
