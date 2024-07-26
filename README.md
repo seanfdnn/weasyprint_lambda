@@ -1,3 +1,6 @@
+# UNMAINTAINED
+Feel free to fork or use as a reference, but this library is unmaintained.
+
 # Weasyprint Lambda Layer for Docker
 This repository contains a Dockerfile which will build a AWS Lambda layer containing the native libraries for the WeasyPrint HTML to PDF 
 
